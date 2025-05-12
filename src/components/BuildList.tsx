@@ -7,7 +7,6 @@ interface BuildListProps {
 }
 
 const BuildList = ({ builds, title }: BuildListProps) => {
-  console.log("Builds:", builds); // Debugging line to check the builds data
   return (
     <div className="space-y-4">
       {title && <h2 className="text-2xl font-bold">{title}</h2>}

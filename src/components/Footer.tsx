@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link, ExternalLink, Info } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator";
-import ExternalLinkConfirm from "@/components/ExternalLinkConfirm";
 
 interface VersionInfo {
   api: string;

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import ExternalLinkConfirm from "./ExternalLinkConfirm";
 
 type LinkWrapperProps = {
   children: React.ReactNode;
@@ -84,11 +83,9 @@ const LinkWrapper: React.FC<LinkWrapperProps> = ({ children }) => {
             anchor.appendChild(iconSpan);
           }
         } catch (e) {
-          // If URL parsing fails, it's likely not a valid URL
           console.error("Invalid URL:", href);
         }
         
-        // Mark as processed
         anchor.setAttribute('data-external-processed', 'true');
       });
     };
@@ -96,7 +93,7 @@ const LinkWrapper: React.FC<LinkWrapperProps> = ({ children }) => {
     // Process immediately, then observe for changes
     processAnchors();
 
-    // Set up MutationObserver to watch for DOM changes
+    // Set up MutationObserver to watch DOM changes
     const observer = new MutationObserver((mutations) => {
       let shouldProcess = false;
       
@@ -118,7 +115,6 @@ const LinkWrapper: React.FC<LinkWrapperProps> = ({ children }) => {
       subtree: true 
     });
 
-    // Cleanup
     return () => {
       observer.disconnect();
     };
