@@ -1,10 +1,7 @@
-import { useState } from "react";
 import BuildList from "@/components/BuildList";
 import HeroGrid from "@/components/HeroGrid";
-import { Build } from "@/types";
 import { useQuery } from "@tanstack/react-query";
 import { Loader2 } from "lucide-react";
-import ExternalLinkConfirm from "@/components/ExternalLinkConfirm";
 
 const Index = () => {
   const { data: recentBuilds, isLoading } = useQuery({
