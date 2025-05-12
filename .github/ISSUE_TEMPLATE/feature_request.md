@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea/feature for us to possibly implement.
-title: "[FEAT] ..."
+title: "[FEAT] "
 labels: enhancement, help wanted
 assignees: Luciousdev
 

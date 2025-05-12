@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a bug report, we will investigate and try to resolve the mentioned issue.
-title: "[BUG] ..."
+title: "[BUG] "
 labels: bug, help wanted
 assignees: Luciousdev
 
