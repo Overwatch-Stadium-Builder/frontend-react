@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Tab } from "@headlessui/react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Build } from "@/types";
 import BuildList from "@/components/BuildList";
 import { useAuth } from "@/contexts/AuthContext";
 import { useQuery } from "@tanstack/react-query";

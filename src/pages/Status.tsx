@@ -1,4 +1,3 @@
-import React from "react";
 import { useQuery } from "@tanstack/react-query";
 import {
   Card,
@@ -22,7 +21,6 @@ import { format, parseISO } from "date-fns";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import ExternalLinkConfirm from "@/components/ExternalLinkConfirm";
 
 type Monitor = {
   id: number;

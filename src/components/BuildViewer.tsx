@@ -8,7 +8,6 @@ import { useToast } from "@/hooks/use-toast";
 import { Link, useNavigate } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { useAuth } from "@/contexts/AuthContext";
-import ExternalLinkConfirm from "@/components/ExternalLinkConfirm";
 import {
   Dialog,
   DialogContent,
