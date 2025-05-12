@@ -7,7 +7,7 @@ assignees: Luciousdev
 
 ---
 
-**Bug occurance**
+**Bug occurrence**
 The bug happens on [environment] using [browser]. / Bug is not environment and/or browser dependent.
 
 **To Reproduce**
