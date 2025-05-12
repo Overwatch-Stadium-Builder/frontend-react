@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { Round, Item, Power, ItemCategory, ItemRarity } from "@/types";
+import { useState } from "react";
+import { Round, Item, Power, ItemCategory } from "@/types";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";

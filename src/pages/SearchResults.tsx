@@ -1,8 +1,6 @@
-import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import BuildList from '@/components/BuildList';
 import SearchService from '@/services/SearchService';
-import { Build } from '@/types';
 import { Loader2 } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 
